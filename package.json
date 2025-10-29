@@ -14,15 +14,24 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:templ"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "languages": [
       {
-        "command": "templ-generate-on-save.helloWorld",
-        "title": "Hello World"
+        "id": "templ",
+        "extensions": [
+          ".templ"
+        ],
+        "aliases": [
+          "Templ",
+          "templ"
+        ]
       }
-    ]
+    ],
+    "commands": []
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
