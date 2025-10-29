@@ -3,10 +3,10 @@
   "displayName": "templ-generate-on-save",
   "description": "generate *_templ.go files when saving *.templ files",
   "version": "0.0.1",
-  "publisher": "corbanprocuniar",
+  "publisher": "corbanpro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/corbanprocuniar/templ-generate-on-save"
+    "url": "https://github.com/corbanpro/templ-generate-on-save"
   },
   "engines": {
     "vscode": "^1.99.3"
