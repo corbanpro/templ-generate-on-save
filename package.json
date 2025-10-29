@@ -9,7 +9,7 @@
     "url": "https://github.com/corbanprocuniar/templ-generate-on-save"
   },
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.99.3"
   },
   "categories": [
     "Other"
@@ -33,7 +33,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.105.0",
+    "@types/vscode": "^1.99.3",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
